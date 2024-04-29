@@ -1,0 +1,17 @@
+<data>
+  <key name="about_title_head"><value>CONTACT US</value></key>
+    <key name="contact_title"><value>HOTEL BAKUL </value></key>
+    <key name="address_Bakul"><value>2814/14, Bakul Bungalow,
+                                   B-Ward, Belbag, Mangalwar Peth,
+                                   Kolhapur, Maharashtra.
+                                   Pin- 416012
+                                   </value></key>
+  
+  
+  <key name="contact_number_bakul"><value>Contact Number : +91-9371266705</value></key>
+  <key name="email_bakul"><value>Email : info@hotelbakul.com</value></key>
+  <key name="feature_section_parking"><value>Free Parking</value></key>
+  <key name="feature_section_wifi"><value>Free Wi-Fi </value></key>
+  <key name="feature_section_home"><value>Homely Vibe </value></key>
+  <key name="feature_section_room"><value> Deluxe Bed Room </value></key>
+</data>

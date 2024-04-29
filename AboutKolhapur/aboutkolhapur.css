@@ -1,0 +1,183 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+  }
+  
+  .container {
+    max-width: 1200px; /* Set a maximum width for your content */
+    margin: 0 auto; /* Center the content horizontally */
+    padding: 0 20px; /* Add some padding to the sides */
+  }
+ 
+ .sectionabout {
+    background-image: url("../AboutKolhapur/images/image5.jpg");
+    width: 100%;
+    background-color:#000;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 100px;
+    opacity: 0.5;
+}
+
+.title {
+    font-size: 60px;
+    color: #4525b9;
+    text-shadow: -1px 1px 0 #fff, 1px 1px 0 #fff, 1px -1px 0 #fff, -1px -1px 0 #fff;
+}
+
+/* Adjustments for mobile devices */
+@media (max-width: 768px) {
+    .title {
+        font-size: 40px;
+    }
+    .sectionabout {
+        padding: 50px;
+    }
+}
+
+/* Adjustments for smaller screens */
+@media (max-width: 576px) {
+    .title {
+        font-size: 30px;
+    }
+    .sectionabout {
+        padding: 30px;
+    }
+}
+
+    .section{
+        background-color: #ff000038;
+        padding: 5px;
+      }
+      .icons{
+        font-size: 30px;
+        
+      }
+      .kolhapur{
+        font-size: 20px;
+      }
+    .we-do-section{
+        position:relative;
+        padding:50px 30px;
+    }
+    
+    .sec-title .text {
+        position: relative;
+        color: #2f59ce;
+        font-size: 20px;
+        margin-top: 15px !important;
+        line-height: 1.8em;
+         font-family: 'Montserrat-Regular';
+    }
+    
+    .row {
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+    .sec-title {
+        position: relative;
+        padding-bottom: 40px;
+    }
+    .services-block{
+        position:relative;
+        margin-bottom:48px;
+    }
+    
+    .services-block .inner-box{
+        position:relative;
+    }
+    
+    .services-block .inner-box .image{
+        position:relative;
+        background-color:#0b0b0b;
+        overflow:hidden;
+        border-bottom:3px solid #f2d046;
+    }
+    
+    .services-block .inner-box .image img{
+        position:relative;
+        width:100%;
+        display:block;
+        transition:all 0.5s ease;
+        -moz-transition:all 0.5s ease;
+        -webkit-transition:all 0.5s ease;
+        -ms-transition:all 0.5s ease;
+        -o-transition:all 0.5s ease;
+    }
+    
+    .services-block .inner-box:hover .image img{
+        opacity:0.7;
+        -webkit-transform:scale(1.1);   
+        -ms-transform:scale(1.1);   
+        -moz-transform:scale(1.1);  
+        transform:scale(1.1);
+    }
+    
+    .services-block .inner-box .lower-content{
+        position:relative;
+        padding-top:16px;
+    }
+    
+    .services-block .inner-box .lower-content h3{
+        position:relative;
+        font-size:18px;
+        font-weight:600;
+        padding-bottom:14px;
+    }
+    
+    .services-block .inner-box .lower-content h3:after{
+        position:absolute;
+        content:'';
+        left:0px;
+        bottom:0px;
+        width:50px;
+        height:2px;
+        background-color:#9b9b9b;
+        transition:all 500ms ease;
+        -moz-transition:all 500ms ease;
+        -webkit-transition:all 500ms ease;
+        -ms-transition:all 500ms ease;
+        -o-transition:all 500ms ease;
+    }
+    
+    .services-block .inner-box:hover .lower-content h3:after{
+        width:100%;
+        background-color:#fbd848;
+    }
+    
+    .services-block .inner-box .lower-content h3 a{
+        color:#242424;
+        transition:all 500ms ease;
+        -moz-transition:all 500ms ease;
+        -webkit-transition:all 500ms ease;
+        -ms-transition:all 500ms ease;
+        -o-transition:all 500ms ease;
+    }
+    
+    .services-block .inner-box .lower-content h3 a:hover{
+        color:#f2d046;
+    }
+    /***********************section4******************/
+.section4{
+    padding: 30px;
+    background-color: red;
+  }
+  
+  .parking{
+    font-size: 30px;
+    color: #fff;
+      display: inline-block;
+      vertical-align: middle;
+      
+  }
+  .parking p{
+    font-size: 20px;
+    color: #fff;
+      display: inline-block;
+      
+      
+  }

@@ -1,0 +1,164 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+.container {
+  max-width: 1200px; /* Set a maximum width for your content */
+  margin: 0 auto; /* Center the content horizontally */
+  padding: 0 20px; /* Add some padding to the sides */
+}
+
+
+
+/* Style for the navigation bar */
+ .navbar-collapse {
+  display: flex;
+  justify-content: flex-end; /* Align items to the right */
+}
+
+/* Style for the navigation items */
+.nav-item {
+  margin: 0 10px; /* Adjust margin as needed */
+}
+
+.nav-link {
+  color: #333; /* Change the color as needed */
+  text-decoration: none;
+}
+
+/* Style for the active navigation item */
+.nav-item.active .nav-link {
+  font-weight: bold; /* Make the active link bold */
+}
+
+
+
+
+.section6{
+    padding: 70px;
+    width: 100%;
+    position: relative;
+    background-color: rgba(0, 0, 0, .72);
+    background-image: url("../Home/images/outer.jpg");
+    background-position: center;
+    background-size: cover;
+    color: #FFF;
+    opacity: 0.9;
+}
+
+.para{
+    font-family: 'Montserrat-Regular';
+    font-size: 19px;
+
+}
+a {
+  color: white;
+  text-decoration: none;
+  background-color: transparent;
+}
+.f3{
+    color:#f8de32;
+    font-size: 17px;
+}
+.copy-right {
+    border-top: 2px solid #fff;
+    padding: 30px 0 0;
+    margin: 30px 0 0;
+}
+.copy-right-left p {
+    text-align: left;
+    color: #c5c5c5;
+    font-weight: 300;
+    font-size: 14px;
+    font-family: 'Oxanium', cursive;
+}
+.copy-right-left span {
+    color: #f8de32;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+
+    .section{
+        background-color: #ff000038;
+        padding: 5px;
+      }
+      .icons{
+        font-size: 30px;
+        
+      }
+      .kolhapur{
+        font-size: 20px;
+      }
+      .ed_img_overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, .72);
+    }
+    
+    .sectionabout {
+        background-image: url("../Rooms/images/roomimg2.jpg");
+        width: 100%;
+        background-color:#000;
+        background-size: cover;
+        background-attachment: fixed;
+        position: relative;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding: 100px;
+        opacity: 0.5;
+    }
+    
+    .title {
+        font-size: 60px;
+        color: #4525b9;
+        text-shadow: -1px 1px 0 #fff, 1px 1px 0 #fff, 1px -1px 0 #fff, -1px -1px 0 #fff;
+    }
+    
+    /* Adjustments for mobile devices */
+    @media (max-width: 768px) {
+        .title {
+            font-size: 40px;
+        }
+        .sectionabout {
+            padding: 50px;
+        }
+    }
+    
+    /* Adjustments for smaller screens */
+    @media (max-width: 576px) {
+        .title {
+            font-size: 30px;
+        }
+        .sectionabout {
+            padding: 30px;
+        }
+    }
+    /***********************section4******************/
+.section4{
+    padding: 30px;
+    background-color: red;
+  }
+  
+  .parking{
+    font-size: 30px;
+    color: #fff;
+      display: inline-block;
+      vertical-align: middle;
+      
+  }
+  .parking p{
+    font-size: 20px;
+    color: #fff;
+      display: inline-block;
+      
+      
+  }
+  .absec{
+    padding: 100px;
+  }

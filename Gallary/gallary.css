@@ -1,0 +1,147 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+.container {
+  max-width: 1200px; /* Set a maximum width for your content */
+  margin: 0 auto; /* Center the content horizontally */
+  padding: 0 20px; /* Add some padding to the sides */
+}
+ 
+ .section{
+        background-color: #ff000038;
+        padding: 5px;
+      }
+      .icons{
+        font-size: 30px;
+        
+      }
+      .kolhapur{
+        font-size: 20px;
+      }
+      .ed_img_overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, .72);
+    }
+    
+    .sectionabout {
+        background-image: url("../Gallary/images/hotel.jpg");
+        width: 100%;
+        background-color:#000;
+        background-size: cover;
+        background-attachment: fixed;
+        position: relative;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding: 100px;
+        opacity: 0.5;
+    }
+    
+    .title {
+        font-size: 60px;
+        color: #4525b9;
+        text-shadow: -1px 1px 0 #fff, 1px 1px 0 #fff, 1px -1px 0 #fff, -1px -1px 0 #fff;
+    }
+    
+    /* Adjustments for mobile devices */
+    @media (max-width: 768px) {
+        .title {
+            font-size: 40px;
+        }
+        .sectionabout {
+            padding: 50px;
+        }
+    }
+    
+    /* Adjustments for smaller screens */
+    @media (max-width: 576px) {
+        .title {
+            font-size: 30px;
+        }
+        .sectionabout {
+            padding: 30px;
+        }
+    }
+    /***********************section4******************/
+.section4{
+    padding: 30px;
+    background-color: red;
+  }
+  
+  .parking{
+    font-size: 30px;
+    color: #fff;
+      display: inline-block;
+      vertical-align: middle;
+      
+  }
+  .parking p{
+    font-size: 20px;
+    color: #fff;
+      display: inline-block;
+      
+      
+  }
+  /* Container styling */
+.absec {
+  padding: 20px;
+}
+
+/* Style for heading */
+.absec h1 {
+  margin-top: 10px;
+  text-align: center;
+}
+
+/* Style for form group */
+.absec .form-group {
+  margin-bottom: 20px;
+}
+
+/* Style for images */
+.image-gallery {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+/* Style for image */
+.image-gallery img {
+  display: block;
+  width: 100%;
+  
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Add hover effect */
+.image-gallery img:hover {
+  transform: scale(1.05);
+}
+
+/* Style for image caption */
+.image-gallery h5 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  margin: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  text-align: center;
+  box-sizing: border-box;
+  transition: background-color 0.3s ease-in-out;
+}
+
+/* Style for image caption on hover */
+.image-gallery:hover h5 {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+  
